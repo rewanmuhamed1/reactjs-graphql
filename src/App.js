@@ -14,13 +14,7 @@ import './App.css';
 
 function App() {
   const dispatch = useDispatch();
-  const { loading, error, data } = useQuery(GET_DATA ,{
-    
-    pollInterval: 100,
-  } );
-  
-
-console.log(data);
+  const { loading, error, data } = useQuery(GET_DATA );
 
   useEffect(() => {
     
