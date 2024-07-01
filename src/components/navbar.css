@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+   
+line-height: 120%;
+  }
+
+  .cartCount{
+    top:-9px;
+    left:9px;
+    }
+    .active{
+border-bottom : 2px solid #22c55e;
+    }
+
+    
